@@ -1,5 +1,5 @@
 {% set name = "iso3166" %}
-{% set version = "2.0.2" %}
+{% set version = "2.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 04d02cfcfc18a6f8a9a4edb4d0a55e2e4fc575626c29d702f750de415e88d372
+  sha256: c420a66a71ae18ae280342eedf4cd67aa40e83b23e36cce3e6979a2a5b79afd9
 
 build:
   number: 0
